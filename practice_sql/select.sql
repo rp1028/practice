@@ -45,7 +45,7 @@ SELECT EMP_ID, EMP_NAME, HIRE_DATE FROM EMPLOYEE WHERE EMP_NAME LIKE '김%';
 -- 13. '성이 김씨'가 아닌 직원의 사번, 이름, 입사일 조회
 SELECT EMP_ID, EMP_NAME, HIRE_DATE FROM EMPLOYEE WHERE EMP_NAME NOT LIKE '김%';
 
--- 14. 이름에 '하' 문자가 포함된 직원의 이름, 주민번호, 부서코드 조회
+-- 14. 이름에 ' 하' 문자가 포함된 직원의 이름, 주민번호, 부서코드 조회
 SELECT EMP_NAME, EMP_NO, DEPT_CODE FROM EMPLOYEE WHERE EMP_NAME LIKE '%하%';
 
 -- 15. 'J2'직급이거나 'J7'직급인 직원들 중 급여가 200만원 이상인 직원의 이름, 급여 조회
